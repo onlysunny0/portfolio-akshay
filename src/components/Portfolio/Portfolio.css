@@ -1,0 +1,47 @@
+.portfolio{
+   width: 100%;
+   padding: 5% 0%;
+}
+.portfolio>h2{
+    width: 100%;
+    color: #10375C;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.portfolio-down{
+    width:100% ;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    
+    justify-content: center;
+}
+.portfolio-project{
+    width: 25%;
+    margin-top: 5%;
+    overflow: hidden;
+    background-color: #10375C;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.portfolio-project:hover{
+    scale: 1.05;
+    transition: 500ms;
+}
+.portfolio-project>a>img{
+    width: 100%;
+}
+.portfolio-project>a>h4{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 1000px){
+    .portfolio-project{
+        width: 80%;
+    }
+}

@@ -1,0 +1,134 @@
+/* 
+.Brand h2{
+    text-align: center;
+    font-size: 40px;
+    color: #10375C; 
+}
+.Brand>div{
+  width: 200%; 
+  display: flex; 
+}
+.Brand>div>div{
+    width: 100%;
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    margin-top: 1%;
+    animation: brandslide 40s infinite backwards 0s linear;
+}
+.Brand>div>div>img{
+    width: 100px;
+    height: auto;
+} */
+
+
+.Brand{
+    width: 100%;
+    padding: 5% 0%;
+    overflow-x: hidden;
+}
+.Brand h2{
+    text-align: center;
+    font-size: 40px;
+    color: #10375C; 
+}
+
+/* ------------------------------------------Logoslider start---------------------------------------------- */
+.logo_slider{
+    height: 25%;
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 100% 100%;
+    padding: 20px 0px;
+  }
+  .logo_slider .first{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    animation: logoslide 50s linear backwards infinite ;
+    overflow: hidden;
+    border: none;
+  }
+  .logo_slider .second{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    animation: logoslide2 50s linear backwards infinite ;
+    overflow: hidden;
+    border: none;
+  }
+  .logo_slider .first img{
+    width: 5%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    border: none;
+  }
+  .logo_slider .second img{
+    width: 5%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    border: none;
+  }
+  @keyframes logoslide {
+    0%{
+      transform: translateX(4%);
+    }
+    100%{
+      transform: translateX(-100%);
+    }
+  }
+  @keyframes logoslide2 {
+    0%{
+      transform: translateX(0%);
+    }
+    100%{
+      transform: translateX(-104%);
+    }
+  }
+
+/* @keyframes brandslide {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+  }
+
+
+  @keyframes brandslide2 {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+  } */
+
+  @media only screen and (max-width: 1000px){
+    .Brand>div{
+        width: 1200px; 
+        display: flex; 
+      }
+
+      .logo_slider{
+        height: 50%;
+        width: 100%;
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: 100% 100%;
+        padding: 10px 0px;
+        margin-top: 0%;
+      }
+      
+      
+      
+      .logo_slider .second img , .logo_slider .first img{
+        padding: 0% 3%;
+        width: 20%;
+      }
+      
+  }

@@ -1,0 +1,163 @@
+.businesssol-hero{
+    width: 100%;
+    color: #000;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    padding-top: 5%;
+    border-bottom: 1px solid #10375C;
+}
+.businesssol-hero-left{
+    width: 50%;
+    padding: 8% 4%;
+    margin-left: 4%;
+}
+.businesssol-hero-left h1{
+    font-size: 50px;
+    line-height: 60px;
+    text-wrap: balance;
+    font-weight: 700;
+    color: #10375C;
+}
+.businesssol-hero-left p{
+    font-size: 15px;
+    font-weight: 300;
+    margin: 5% 0%;
+    color: #000000a2;
+    text-wrap: balance;
+}
+.businesssol-hero-left a{
+    font-size: 15px;
+    background-color: #10375c;
+    padding: 2%;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 50px;
+    text-wrap: balance;
+    text-decoration: none;
+    border: 2px solid #10375c;
+}
+.businesssol-hero-left a:hover{
+    border: 2px solid #3AB0FF;
+ background-color: #3AB0FF;
+ color: #fff;
+}
+
+
+.businesssol-hero-right{
+    width: 50%;
+    height: 100vh;
+}
+
+.AvtarSlider{
+    width: 700px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.AvtarSlider1{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    gap: 20px;
+   
+}
+.AvtarSlider1-inner{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.AvtarSlider1-inner>div{
+    width: 200px;
+    height: 300px;
+    background-color: #10375C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+}
+.AvtarSlider1-inner>div>img{
+   width: 100%;
+}
+
+
+
+.AvtarSlider1-inner1{
+    animation: avtarslide 30s infinite backwards 0s linear;
+}
+.AvtarSlider1-inner2{
+    animation: avtarslide 30s infinite backwards 0s linear;
+}
+.AvtarSlider1-inner3{
+    animation: avtarslide2 30s infinite backwards 0s linear;
+}
+.AvtarSlider1-inner4{
+    animation: avtarslide2 30s infinite backwards 0s linear;
+}
+@keyframes avtarslide {
+    from {
+        transform: translateY(0%);
+    }
+    to {
+        transform: translateY(-100%);
+    }
+  }
+
+
+  @keyframes avtarslide2 {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0%);
+    }
+  }
+
+
+
+
+  @media only screen and (max-width: 1000px) {
+    .businesssol-hero-left{
+        width: 100%;
+        padding: 15% 10%;
+        height: 100%;
+        margin-left: 0%;
+        position: absolute;
+        z-index: 1;
+        background-color: #f4f6ffe8;
+    }
+    .businesssol-hero-right{
+        width: 100%;
+    }
+    .businesssol-hero-left h1{
+        font-size: 45px;
+        width: 100%;
+        text-wrap:unset;
+    }
+    .businesssol-hero-left p{
+        margin: 5% 0%;
+        margin-bottom: 10%;
+    }
+    
+    .AvtarSlider{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .businesssol-hero-left a{
+        padding: 3%;
+    }
+    .AvtarSlider1-inner{
+        gap: 10px;
+    }
+    .AvtarSlider1-inner>div{
+        width: 120px;
+        height: 200px;
+    }
+  }

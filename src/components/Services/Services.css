@@ -1,0 +1,65 @@
+.Services{
+    width: 100%;
+    padding: 5% 5%;
+}
+
+.Services>h2{
+    width: 100%;
+    color: #10375C;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 1%;
+}
+.Bar{
+    width: 150px;
+    height: 3px;
+    background-color: #10375C;
+    margin: auto;
+}
+.service-down{
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+.service-down>div{
+    width: 400px;
+    padding: 2% 2%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #10375C;
+    border: 3px solid #3AB0FF;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.service-down>div:hover{
+    color: #fff;
+    background-color: #10375C;
+}
+.service-down>div>h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+.service-down>div>p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 2%;
+    height: 20%;
+}
+.service-down>div>ul{
+   width: 100%;
+}
+.service-down>div>ul>li{
+    list-style: none;
+    font-size: 16px;
+    margin-bottom: 2%;
+ }
+
+ .service-down>div>ul>li>span{
+    color: #3AB0FF;
+    margin-right: 5%;
+ }

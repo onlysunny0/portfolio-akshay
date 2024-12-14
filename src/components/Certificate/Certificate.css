@@ -1,0 +1,69 @@
+.Certificate{
+    width: 100%;
+    margin-top: 5%;
+    overflow: hidden;
+}
+.Certificate>h2{
+    font-size: 40px;
+    color: #3AB0FF;
+    font-weight: 700;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+
+
+.Certificate>div{
+    width: 5000px; 
+    gap: 20px;
+    display: flex;
+  }
+  .Certificate>div>div{
+      width: 100%;
+      display: flex;
+      gap: 20px;
+      margin-top: 1%;
+  }
+  .Certificate>div>div>img{
+    object-fit: contain;
+      width: 300px;
+      height: 180px;
+      background-color: #fff;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+
+  .certificateslider1{
+    animation: certificateslide 80s infinite backwards 0s linear;
+  }
+  .certificateslider2{
+    animation: certificateslide2 80s infinite backwards 0s linear;
+  }
+  
+  @keyframes certificateslide {
+      from {
+          transform: translateX(0%);
+      }
+      to {
+          transform: translateX(-100%);
+      }
+    }
+  
+  
+    @keyframes certificateslide2 {
+      from {
+          transform: translateX(-100%);
+      }
+      to {
+          transform: translateX(0%);
+      }
+    }
+  
+
+    @media only screen and (max-width: 1000px){
+      .Certificate>h2{
+        width: 95%;
+        font-size: 25px;
+      }
+    }
+     

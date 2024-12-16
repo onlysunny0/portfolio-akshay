@@ -9,19 +9,27 @@ function Brand() {
         <div className='logo_slider'>
           <div className='first'>
             <img src="./Brand/Fx.png" alt="" />
+            <img src="./Brand/plus.png" alt="" />
             <img src="./Brand/Avenue.webp" alt="" />
             <img src="./Brand/Learnovate.png" alt="" />
             <img src="./Brand/Learnovate2.webp" alt="" />
+            <img src="./Brand/ax.svg" alt="" />
             <img src="./Brand/mah.webp" alt="" />
+            <img src="./Brand/realtor.svg" alt="" />
             <img src="./Brand/orbit.svg" alt="" />
           </div>
           <div className='second'>
             <img src="./Brand/Fx.png" alt="" />
+            <img src="./Brand/plus.png" alt="" />
             <img src="./Brand/Avenue.webp" alt="" />
             <img src="./Brand/Learnovate.png" alt="" />
             <img src="./Brand/Learnovate2.webp" alt="" />
+            <img src="./Brand/ax.svg" alt="" />
             <img src="./Brand/mah.webp" alt="" />
+            <img src="./Brand/realtor.svg" alt="" />
             <img src="./Brand/orbit.svg" alt="" />
+            
+            
           </div>
             
         </div>

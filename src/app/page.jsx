@@ -1,7 +1,7 @@
 
 import Image from "next/image";
 import styles from "./page.module.css";
-import { About, Brand, Casestudy, Certificate, Contact, Footer, Hero, Nav, Portfolio, Projects, Services } from "@/components/Components";
+import { About, Brand, Casestudy, Certificate, Contact, Ecom, Footer, Hero, Nav, Portfolio, Projects, Seo, Services, Smm } from "@/components/Components";
 
 
 export default function Home() {
@@ -17,7 +17,9 @@ export default function Home() {
       <About/>
       <Services/>
       <Portfolio/>
-      <Casestudy/>
+      <Seo/>
+      <Smm/>
+      <Ecom/>
       <Projects/>
       <Certificate/>
       <Contact/>

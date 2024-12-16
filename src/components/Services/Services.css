@@ -25,7 +25,7 @@
     justify-content: center;
 }
 .service-down>div{
-    width: 400px;
+    width: 350px;
     padding: 2% 2%;
     height: 500px;
     display: flex;
@@ -48,18 +48,18 @@
     font-size: 15px;
     font-weight: 400;
     margin-top: 2%;
-    height: 20%;
+    height: 25%;
 }
 .service-down>div>ul{
    width: 100%;
 }
 .service-down>div>ul>li{
     list-style: none;
-    font-size: 16px;
+    font-size: 15px;
     margin-bottom: 2%;
  }
 
  .service-down>div>ul>li>span{
     color: #3AB0FF;
     margin-right: 5%;
- }
+ } 

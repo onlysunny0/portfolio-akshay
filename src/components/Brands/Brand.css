@@ -111,6 +111,10 @@
   } */
 
   @media only screen and (max-width: 1000px){
+    .Brand h2{
+      
+      font-size: 30px;
+  }
     .Brand>div{
         width: 1200px; 
         display: flex; 

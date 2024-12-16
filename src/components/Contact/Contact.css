@@ -103,6 +103,10 @@
 }
 
 @media only screen and (max-width: 1000px){
+    
+    .Contact-left>h2{
+        font-size: 40px;
+    }
     .Contact-left{
         width: 100%;
     }

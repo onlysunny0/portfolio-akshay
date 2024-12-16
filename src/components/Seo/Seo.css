@@ -25,6 +25,10 @@
 }
 
 @media only screen and (max-width: 1000px){
+    .seosection>h2{
+        font-size: 35px;
+        padding: 2%;
+    }
     .seosection>img{
         width: 90%;
         margin-top: 5%;
